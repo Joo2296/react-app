@@ -2,6 +2,9 @@ body{
     margin: 40px;
     background-color: #ccc;
 }
+li {
+    list-style: none;
+}
 .a{
     background-color: white;
     border: none;
@@ -23,7 +26,7 @@ body{
     border-radius: 4px;
     margin-bottom: 10px;
 }
-.a > input[type="button"] {
+.a > input[type="submit"] {
     background-color: #0071ff;
     width: 20%;
     height: 130px;
@@ -42,7 +45,10 @@ body{
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.b > form > div {
+.b > ul {
+    padding: 0;
+}
+.b > ul > li {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -51,12 +57,9 @@ body{
     margin-bottom: 10px;
 
     position: relative;
+    line-height: 40px;
 }
-.b > form > div > label {
-    position: relative;
-    top: 25%;
-}
-.b > form > div > input {
+.b > ul > li button {
     background-color: red;
     width: 60px;
     border: none;

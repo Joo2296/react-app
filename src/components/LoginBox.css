@@ -1,0 +1,32 @@
+body{
+    background-color: #f0f0f0;
+}
+form{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 16px;
+
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+input{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input[type="button"]{
+    background-color: #007dff;
+    color: white;
+    border: none;
+
+    font-size: 16px;
+}

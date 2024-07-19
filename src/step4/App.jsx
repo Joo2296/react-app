@@ -1,11 +1,11 @@
 // import { Sample1 } from "./Sample1"
-import { Gate } from "./Gate"
+import { Gate3 } from "./Gate3"
 
 export function App(){
     return (
         <div>
             {/* <Sample1/> */}
-            <Gate/>
+            <Gate3/>
         </div>
     )
 }
